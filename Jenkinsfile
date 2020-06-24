@@ -13,7 +13,7 @@ node {
      sh "docker version"
    }
    stage('Checkout') {
-        git 'https://github.com/malu900/fun4.git'
+        git 'https://github.com/malu900/funn4.git'
    }
 
    // stage('Build Docker Image') {
